@@ -95,19 +95,19 @@ nav{
     background-color: white;
 }
 /* img */
-.title img{
+.img-x{
     height: 64px;
     width: 64px;
 }
-/* h3 */
-.title h3{
+/* title-heading */
+.t-heading{
     font-weight: bold;
     font-size: 20px;
     color: #0E0E0E;
     opacity: 0.80;
 }
-/* p */
-.title p{
+/* bd-p */
+.bd-p{
     font-size: 16px;
     font-weight: 400;
     color: #0E0E0E;
@@ -119,4 +119,77 @@ nav{
     font-size: 40px;
     font-weight: bold;
     color: #0E0E0E;
+    margin-bottom: 32px;
+}
+
+/* hero */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+/* hero-item1 */
+.hero-item1{
+    padding: 32px;
+    background-color:#81B4FC;
+    
+    border-radius: 16px;
+    width: 411px;
+    height: 260px;
+}
+/* hero-item2 */
+.hero-item2{
+    padding: 32px;
+    background-color:#C6E4D6;
+    border-radius: 16px;
+    width: 411px;
+    height: 260px;
+}
+/* hero-item3 */
+.hero-item3{
+    padding: 32px;
+    background-color:#F7EBCF;
+    border-radius: 16px;
+    width: 411px;
+    height: 260px;
+}
+.hero-item1 button{
+    color: white;
+    background-color: #5490F5;
+}
+.hero-item2 button{
+    background-color: #09A15C;
+    color: white;
+}
+.hero-item3 button{
+    color: white;
+    background-color: #FFC239;
+}
+.the-Vision-btn{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 11px 20px;
+    border-radius: 8px;
+    margin-top:24px;
+    border: none;
+}
+
+
+/* Dr-Muhammad-Yunus */
+.Dr-Muhammad-Yunus{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 16px;
+    padding: 48px 24px;
+    opacity: 0.80;
+    margin-bottom: 80px;
+}
+.Dr-Muhammad-Yunus .pm-title{
+    color: #0E0E0E;
+    opacity: 0.80;
+}
+.dr-title{
+    color: #0E0E0E;
+    opacity: 0.60;
 }
