@@ -346,6 +346,11 @@ nav{
     color: #0E0E0E;
     opacity: 0.80;
 }
+
+.ammount h1:hover{
+    background-color: #006A50;
+}
+
 #spe{
     background-color: #C6E4D6;
 }
@@ -426,5 +431,28 @@ nav{
 
 footer{
     background-color: white;
+    border-radius:24px ;
     width: 100%;
+}
+
+/* footer */
+
+.bd-2{
+    width: 65%;
+    margin: 17.5%;
+    text-align: center;
+}
+.bd-2 h1{
+    padding: 50px 0 32px 0;
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.bd-2 div{
+    margin-top: 32px;
+}
+.bd-2 div {
+    display: flex;
+    margin-left: 44%;
+    gap: 24px;
 }
