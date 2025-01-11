@@ -1,5 +1,5 @@
 body{
-    background-color: #F5F5F5;
+    background-color: #F1F1F3;
 }
 /* Fira-Sans-font-family */
 body{
@@ -311,7 +311,7 @@ nav{
     opacity: 0.80;
 }
 
-.news-title p{
+.news-t{
     display: block;
     font-size: 16px;
     font-weight: 400;
@@ -329,4 +329,102 @@ nav{
     margin-top:32px ;
 }
 
+/* section-6 */
+.ammount{
+    display: flex;
+    gap: 100px;
+    justify-content: space-evenly;
 
+}
+.ammount h1{
+    background-color: white;
+    border-radius: 18px;
+    padding: 30px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    opacity: 0.80;
+}
+#spe{
+    background-color: #C6E4D6;
+}
+
+.donate input{
+    display:block;
+    padding: 20px 422.5px;
+    margin: auto;
+    color: #0E0E0E;
+    opacity: 0.30;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: white;
+    border: none;
+}
+.donate button{
+    margin-left: 45%;
+    padding: 17px 34px;
+    margin-top: 32px;
+    background-color: #006A50;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+/* section7 */
+
+.subscribe {
+    margin-top: 97px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    text-align: center;
+}
+.subscribe div{
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+.sub-h{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    padding-left:16px ;
+}
+.sub-t{
+    font-weight: 400;
+    width: 45%;
+    margin: auto;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0E0E0E;
+    opacity: 0.70;
+}
+#subin{
+    padding: 18px 303px 18px 40px;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    color: #0E0E0E;
+    opacity: 0.30;
+    background-color: white;
+    border-radius: 32px 0 0 32px;
+}
+.subscribe div button{
+    background-color:#006A50 ;
+    font-size: 18px;
+    font-weight: 600;
+    color: #0E0E0E;
+    padding: 15px 34px;
+    border-radius: 0 32px 32px 0;
+}
+.u-in{
+    display: flex;
+    margin-left: 27.5%;
+}
+.sub-t1{
+    padding-bottom: 50px;
+}
+
+footer{
+    background-color: white;
+    width: 100%;
+}
